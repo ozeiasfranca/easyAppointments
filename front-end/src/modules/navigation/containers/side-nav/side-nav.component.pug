@@ -8,6 +8,7 @@ nav#sidenavAccordion.sb-sidenav.accordion([ngClass]='sidenavStyle')
                         [sideNavItem]='sideNavItems[item]'
                     )
     .sb-sidenav-footer
-        .small Logged in as:
-        span(*ngIf='userService.user$ | async as user')
-            | {{user.firstName}} {{user.lastName}}
+        .small Logado como:
+        span Carlos Fernandes
+        //span(*ngIf='userService.user$ | async as user')
+        //    | {{user.firstName}} {{user.lastName}}

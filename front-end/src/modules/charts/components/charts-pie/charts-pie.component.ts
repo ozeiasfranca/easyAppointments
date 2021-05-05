@@ -25,7 +25,7 @@ export class ChartsPieComponent implements OnInit, AfterViewInit {
         this.chart = new Chart(this.myPieChart.nativeElement, {
             type: 'pie',
             data: {
-                labels: ['Blue', 'Red', 'Yellow', 'Green'],
+                labels: ['Azul', 'Vermelho', 'Amarelo', 'Verde'],
                 datasets: [
                     {
                         data: [12.21, 15.58, 11.25, 8.32],

@@ -25,7 +25,7 @@ export class ChartsBarComponent implements OnInit, AfterViewInit {
         this.chart = new Chart(this.myBarChart.nativeElement, {
             type: 'bar',
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+                labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho'],
                 datasets: [
                     {
                         label: 'Revenue',
