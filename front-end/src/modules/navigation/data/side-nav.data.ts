@@ -2,7 +2,7 @@ import { SideNavItems, SideNavSection } from '@modules/navigation/models';
 
 export const sideNavSections: SideNavSection[] = [
     {
-        text: 'CORE',
+        text: 'NÚCLEO',
         items: ['dashboard'],
     },
     {
@@ -10,7 +10,7 @@ export const sideNavSections: SideNavSection[] = [
         items: ['layouts', 'pages'],
     },
     {
-        text: 'ADDONS',
+        text: 'ADICIONE',
         items: ['charts', 'tables'],
     },
 ];
@@ -18,7 +18,7 @@ export const sideNavSections: SideNavSection[] = [
 export const sideNavItems: SideNavItems = {
     dashboard: {
         icon: 'tachometer-alt',
-        text: 'Dashboard',
+        text: 'Painel Geral',
         link: '/dashboard',
     },
     layouts: {
@@ -26,49 +26,49 @@ export const sideNavItems: SideNavItems = {
         text: 'Layouts',
         submenu: [
             {
-                text: 'Static Navigation',
+                text: 'Navegação Estática',
                 link: '/dashboard/static',
             },
             {
-                text: 'Light Sidenav',
+                text: 'Navegação Light',
                 link: '/dashboard/light',
             },
         ],
     },
     pages: {
         icon: 'book-open',
-        text: 'Pages',
+        text: 'Páginas',
         submenu: [
             {
-                text: 'Authentication',
+                text: 'Autenticação',
                 submenu: [
                     {
                         text: 'Login',
                         link: '/auth/login',
                     },
                     {
-                        text: 'Register',
+                        text: 'Registro',
                         link: '/auth/register',
                     },
                     {
-                        text: 'Forgot Password',
+                        text: 'Esqueceu a senha',
                         link: '/auth/forgot-password',
                     },
                 ],
             },
             {
-                text: 'Error',
+                text: 'Erro',
                 submenu: [
                     {
-                        text: '401 Page',
+                        text: '401',
                         link: '/error/401',
                     },
                     {
-                        text: '404 Page',
+                        text: '404',
                         link: '/error/404',
                     },
                     {
-                        text: '500 Page',
+                        text: '500',
                         link: '/error/500',
                     },
                 ],
@@ -77,12 +77,12 @@ export const sideNavItems: SideNavItems = {
     },
     charts: {
         icon: 'chart-area',
-        text: 'Charts',
+        text: 'Gráficos',
         link: '/charts',
     },
     tables: {
         icon: 'table',
-        text: 'Tables',
+        text: 'Tabelas',
         link: '/tables',
     },
 };

@@ -17,10 +17,10 @@ export const ROUTES: Routes = [
     {
         path: '',
         data: {
-            title: 'Dashboard - SB Admin Angular',
+            title: 'Painel Geral | EasyAppointments',
             breadcrumbs: [
                 {
-                    text: 'Dashboard',
+                    text: 'Painel Geral',
                     active: true,
                 },
             ],
@@ -31,14 +31,14 @@ export const ROUTES: Routes = [
     {
         path: 'static',
         data: {
-            title: 'Dashboard Static - SB Admin Angular',
+            title: 'Painel Geral Estático | EasyAppointments',
             breadcrumbs: [
                 {
-                    text: 'Dashboard',
+                    text: 'Painel Geral',
                     link: '/dashboard',
                 },
                 {
-                    text: 'Static',
+                    text: 'Estático',
                     active: true,
                 },
             ],
@@ -49,10 +49,10 @@ export const ROUTES: Routes = [
     {
         path: 'light',
         data: {
-            title: 'Dashboard Light - SB Admin Angular',
+            title: 'Painel Geral Light | EasyAppointments',
             breadcrumbs: [
                 {
-                    text: 'Dashboard',
+                    text: 'Painel Geral',
                     link: '/dashboard',
                 },
                 {
